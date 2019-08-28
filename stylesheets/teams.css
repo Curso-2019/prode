@@ -1,0 +1,71 @@
+.campeonato .title-a{
+	text-align: center;
+	background: #dadada;
+	border-radius: 3px;
+	position: relative;
+}
+
+.fechas-jugadas{
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+.resultados{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.superLiga h2{
+	background: #dadada;
+	padding-left: 5px;
+	border: 1px solid #000;
+}
+
+.superLiga{
+	border: 1px solid #000;
+	margin-top: 20px;
+}
+
+.boxs{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.col{
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: space-around;
+	
+
+
+}
+.espacio{
+	padding-left: 10px;
+	border-bottom: 1px solid #000;
+	
+}
+
+.col input{
+	margin: 5px 0;
+	align-self: center;
+
+}
+
+.col input:nth-child(1){
+	
+
+}
+.cols{
+	width: 100%;
+}
+
+
+
