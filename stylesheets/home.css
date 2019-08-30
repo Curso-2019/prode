@@ -1,0 +1,46 @@
+.container{
+	border-radius:3px;
+	background:#fff;
+}
+
+h1{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+}
+
+.prode-item .personas{
+	position:absolute;
+	right:0;
+	top:0;
+	background:#2196f3;
+	border-radius:0 0 3px 3px;
+	padding:5px;
+	color:white;
+}
+
+.prode-item{
+	display:flex;
+	position:relative;
+	border-radius:3px;
+	border:1px solid #2196f3;
+	padding:20px;
+	margin:10px;
+}
+
+.prode-item .copa{
+	text-align:center;
+	flex-grow:1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:40px;
+}
+
+.prode-item .image{
+	background:url(../images/copaamerica.png);
+	background-size:cover;
+	width:80px;
+	height:80px;
+	border-radius:22px;
+}
