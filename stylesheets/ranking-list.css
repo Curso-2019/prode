@@ -1,4 +1,4 @@
-.ranking .listas{
+.ranking-list .listas{
     display: flex;
     padding: 20px;
     border: 1px solid #000;
@@ -8,15 +8,15 @@
     margin-bottom: 20px;
 }
 
-.ranking .listas:hover{
+.ranking-list .listas:hover{
     transform: scale(1.02);
 }
 
-.ranking{
+.ranking-list{
     text-align: center;
 }
 
-.ranking h1{
+.ranking-list h1{
     margin: 30px;
     margin-top: 10px;
 }
@@ -43,13 +43,13 @@
     font-weight: 300;
 }
 
-.ranking a{
+.ranking-list a{
     display: block;
     text-decoration: none;
     color: #000;
 }
 
-.ranking .listas .ganador{
+.ranking-list .listas .ganador{
     position: absolute;
     top: 0;
     right: 0;
