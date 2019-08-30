@@ -1,0 +1,61 @@
+.ranking-list .listas{
+    display: flex;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    transition: 0.3s;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ranking-list .listas:hover{
+    transform: scale(1.02);
+}
+
+.ranking-list{
+    text-align: center;
+}
+
+.ranking-list h1{
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.listas .image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.listas .image{
+    flex-shrink: 0;
+    width: 100px;
+}
+
+.listas .nombre-copa{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.listas .nombre-copa h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.ranking-list a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.ranking-list .listas .ganador{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    color: #fff;
+    border-radius: 0px 3px 0px 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
