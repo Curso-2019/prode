@@ -182,9 +182,9 @@
 .cerra3{
 	position: absolute;
 	color: red;
-	top: 0;
-	right: 0;
-	font-size: 15px;
+	top: 3px;
+    right: 3px;
+    font-size: 20px;
 	cursor: pointer;
 	transition: 0.3s;
 }
