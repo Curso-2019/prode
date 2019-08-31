@@ -6,7 +6,12 @@
 	<link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
-	<div class="container animated fadeIn">
+	
+	<div id="container_carga">
+		<div id="carga"></div>
+	</div>
+
+	<div class="container ">
 		
 		<div class="ranking-list">
 			<h1>Ranking</h1>
@@ -66,5 +71,16 @@
 		</div>
 		
 	</div>
+
+	<script>
+		
+		window.onload = function(){
+			var contenedor = document.getElementById('container_carga');
+
+			contenedor.style.visibility = 'hidden';
+			contenedor.style.opacity = '0';	
+		}
+	
+	</script>
 </body>
 </html>

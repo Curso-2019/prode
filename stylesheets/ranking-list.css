@@ -1,3 +1,37 @@
+#container_carga{
+    background: #2196f3;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: 1s ease;
+    z-index: 10000;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: #f4266a;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: girar 1.5s infinite
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+
 .ranking-list .listas{
     display: flex;
     padding: 20px;
