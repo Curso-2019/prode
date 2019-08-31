@@ -91,6 +91,7 @@
 	width: 600px;
 	height: 600px;
 	background-color: white;
+	position: relative;
 }
 
 
@@ -175,5 +176,21 @@
     color: blue;
     font-size: 35px;
 	background-color: aqua;
+}
+
+
+.cerra3{
+	position: absolute;
+	color: red;
+	top: 0;
+	right: 0;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+
+.cerra3:hover{
+	transform: scale(1.2);
 }
 
