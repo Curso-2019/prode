@@ -5,6 +5,7 @@
     position: fixed;
     transition: 1s ease;
     z-index: 10000;
+    top: 0;
 }
 
 #carga{
